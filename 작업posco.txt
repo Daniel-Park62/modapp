@@ -1,0 +1,4 @@
+
+npm --add-python-to-path='true' --debug install --global windows-build-tools
+
+npm install -g pkg@4.3.7

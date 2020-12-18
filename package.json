@@ -1,0 +1,26 @@
+{
+  "name": "modapp",
+  "version": "1.0.0",
+  "description": "modbus info",
+  "main": "datins.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg . --targets node10-win-x64 -o modapp-win.exe"
+  },
+  "author": "piy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bufferstream": "^0.6.2",
+    "date-utils": "^1.2.21",
+    "express": "^4.16.4",
+    "i": "^0.3.6",
+    "modbus-serial": "^7.4.2",
+    "mysql": "^2.16.0",
+    "npm": "^6.9.0"
+  },
+  "bin": {
+    "myapp": "./datins.js"
+  },
+  "devDependencies": {}
+}
