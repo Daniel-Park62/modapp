@@ -100,7 +100,7 @@ function getDevs() {
       }
   })
   .catch((e) => {
-    console.error(DEVPORT , " port conn error");
+    console.error(GWIP,DEVPORT , " port conn error");
     console.info(e);
   });
 
